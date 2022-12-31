@@ -1,0 +1,126 @@
+body {
+  font-family: sans-serif;
+  height: 1200px;
+  overflow: -moz-scrollbars-none !important;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+body::-moz-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+#herosection {
+  padding: 30px 50px;
+  position: relative;
+  background: linear-gradient(rgba(255, 255, 255, 0.416), rgba(255, 255, 255, 0.726)), url(../image/bg2.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#herosection .nav {
+  position: absolute;
+  right: 50px;
+  display: flex;
+  align-items: center;
+}
+#herosection .nav nav ul {
+  display: flex;
+}
+#herosection .nav nav ul li a {
+  font-size: 18px;
+  border-bottom: 2px;
+  padding: 5px 20px;
+}
+#herosection .nav nav ul li a:hover {
+  color: rgb(7, 15, 56);
+}
+#herosection .nav .nav-icons {
+  display: flex;
+  width: 150px;
+  justify-content: end;
+}
+#herosection .nav .nav-icons .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(128, 126, 126);
+  background: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  background: rgb(44, 43, 43);
+}
+#herosection .nav .nav-icons .icon:first-child {
+  margin-right: 10px;
+}
+
+.logo {
+  width: 700px;
+}
+
+#plane {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  width: 500px;
+}
+
+.plane-text {
+  color: white;
+  text-align: center;
+}
+
+.plane-text h1 {
+  font-size: 48px;
+}
+
+.plane-text p {
+  font-size: 24px;
+}
+
+.plane-text button {
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.hero-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-footer .hero-footer-left {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn {
+  color: white;
+  font-weight: 700;
+  padding: 10px 30px;
+  background: #000;
+  border-radius: 25px;
+}/*# sourceMappingURL=main.css.map */
