@@ -287,4 +287,61 @@ a {
   color: #fff;
   font-size: 1.1rem;
   font-weight: 600;
+}
+
+.experience {
+  height: 100vh;
+  padding: 3vw;
+  margin: 30px 0;
+}
+.experience .title {
+  font-size: 11vw;
+}
+.experience .experience-card {
+  margin-top: 3vw;
+}
+.experience .experience-card .experience-desc {
+  width: 30vw;
+}
+.experience .experience-card .experience-desc p {
+  font-size: 1.2vw;
+}
+.experience .experience-card .cards {
+  display: flex;
+}
+.experience .experience-card .cards .icon-card {
+  width: 100%;
+  margin: 30px 0;
+  width: 20vw;
+}
+.experience .experience-card .cards .icon-card:first-child {
+  margin-top: 0;
+}
+.experience .experience-card .cards .icon-card:nth-child(2) {
+  margin-top: 0;
+}
+.experience .experience-card .cards .icon-card span {
+  border: 1px dashed rgb(155, 154, 154);
+  width: 5.5vw;
+  height: 5.5vw;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 5px 40px 0;
+  margin-bottom: 30px;
+}
+.experience .experience-card .cards .icon-card span i {
+  font-size: 1.5vw;
+}
+.experience .experience-card .cards .icon-card h2 {
+  font-weight: 600;
+  font-size: 1.3vw;
+}
+.experience .experience-card .cards .icon-card p {
+  font-family: "HelveticaNowDisplay", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  text-align: left;
+  color: rgb(109, 109, 109);
 }/*# sourceMappingURL=main.css.map */
