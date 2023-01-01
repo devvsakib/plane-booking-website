@@ -493,6 +493,11 @@ a {
     align-items: center;
 
     .title {
+        h2{
+            font-weight: 600;
+            margin-bottom: -1.5vw;
+            color: rgb(160, 160, 160);
+        }
         a {
             font-size: 10vw;
             position: relative;

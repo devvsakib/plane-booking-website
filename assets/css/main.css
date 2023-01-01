@@ -396,6 +396,11 @@ a {
   display: flex;
   align-items: center;
 }
+.booking-section .title h2 {
+  font-weight: 600;
+  margin-bottom: -1.5vw;
+  color: rgb(160, 160, 160);
+}
 .booking-section .title a {
   font-size: 10vw;
   position: relative;
