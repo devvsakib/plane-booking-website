@@ -354,6 +354,11 @@ a {
         background: #151623;
         padding: 40px;
 
+        h1 {
+            font-weight: 600;
+            font-size: 4vw;
+        }
+
         P {
             color: #fff;
             font-size: 1.1rem;
@@ -364,7 +369,7 @@ a {
 
 //  Experience
 .experience {
-    height: 100vh;
+    height: auto;
     padding: 3vw;
     margin: 3vw 0;
 
@@ -386,16 +391,20 @@ a {
 
         .cards {
             display: flex;
+
             .icon-card {
                 width: 100%;
                 margin: 30px 0;
                 width: 20vw;
-                &:first-child{
+
+                &:first-child {
                     margin-top: 0;
                 }
-                &:nth-child(2){
+
+                &:nth-child(2) {
                     margin-top: 0;
                 }
+
                 span {
                     border: 1px dashed rgb(155, 154, 154);
                     width: 5.5vw;
@@ -406,7 +415,8 @@ a {
                     align-items: center;
                     border-radius: 0 5px 40px 0;
                     margin-bottom: 30px;
-                    i{
+
+                    i {
                         font-size: 1.5vw;
                     }
                 }
@@ -417,7 +427,7 @@ a {
                 }
 
                 p {
-                    font-family: 'HelveticaNowDisplay',Arial,sans-serif;
+                    font-family: 'HelveticaNowDisplay', Arial, sans-serif;
                     font-weight: 600;
                     font-size: 1vw;
                     text-align: left;
@@ -426,10 +436,12 @@ a {
             }
         }
     }
-    .footer-left{
+
+    .footer-left {
         font-size: 20px;
         margin-bottom: 3vw;
         font-weight: 600;
+
         .btn {
             color: white;
             font-weight: 700;
@@ -437,5 +449,75 @@ a {
             background: #000;
             border-radius: 25px;
         }
+    }
+}
+
+.gallery-section {
+    height: 100vh;
+    margin: 100px auto;
+
+    .gallery-img {
+        position: relative;
+
+        .next-prev-btn {
+            position: absolute;
+            bottom: 2vw;
+            right: 3vw;
+            font-weight: 700;
+
+            button {
+                font-size: 3vw;
+                background: rgba(51, 48, 48, 0.288);
+                border: none;
+                color: #fff;
+                width: 4vw;
+                height: 4vw;
+                border-radius: 50%;
+            }
+
+            .next-btn {
+                right: 2vw;
+            }
+
+            .prev-btn {
+                right: 6vw;
+            }
+        }
+
+    }
+}
+
+.booking-section {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+
+    .title {
+        a {
+            font-size: 10vw;
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                border-radius:10px;
+                height: .8vw;
+                background: #000;
+                transform-origin: left;
+                width: 0;
+                transition: 300ms ease-in-out;
+            }
+
+            &:hover::after{
+                width: 100%;
+            }
+            &:hover{
+                color: #000;
+            }
+        }
+
+
     }
 }

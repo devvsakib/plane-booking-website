@@ -283,6 +283,10 @@ a {
   background: #151623;
   padding: 40px;
 }
+.manager-section .manager-right h1 {
+  font-weight: 600;
+  font-size: 4vw;
+}
 .manager-section .manager-right P {
   color: #fff;
   font-size: 1.1rem;
@@ -290,7 +294,7 @@ a {
 }
 
 .experience {
-  height: 100vh;
+  height: auto;
   padding: 3vw;
   margin: 3vw 0;
 }
@@ -356,4 +360,61 @@ a {
   padding: 10px 30px;
   background: #000;
   border-radius: 25px;
+}
+
+.gallery-section {
+  height: 100vh;
+  margin: 100px auto;
+}
+.gallery-section .gallery-img {
+  position: relative;
+}
+.gallery-section .gallery-img .next-prev-btn {
+  position: absolute;
+  bottom: 2vw;
+  right: 3vw;
+  font-weight: 700;
+}
+.gallery-section .gallery-img .next-prev-btn button {
+  font-size: 3vw;
+  background: rgba(51, 48, 48, 0.288);
+  border: none;
+  color: #fff;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+}
+.gallery-section .gallery-img .next-prev-btn .next-btn {
+  right: 2vw;
+}
+.gallery-section .gallery-img .next-prev-btn .prev-btn {
+  right: 6vw;
+}
+
+.booking-section {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+}
+.booking-section .title a {
+  font-size: 10vw;
+  position: relative;
+}
+.booking-section .title a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  height: 0.8vw;
+  background: #000;
+  transform-origin: left;
+  width: 0;
+  transition: 300ms ease-in-out;
+}
+.booking-section .title a:hover::after {
+  width: 100%;
+}
+.booking-section .title a:hover {
+  color: #000;
 }/*# sourceMappingURL=main.css.map */
