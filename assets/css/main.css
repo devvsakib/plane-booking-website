@@ -292,7 +292,7 @@ a {
 .experience {
   height: 100vh;
   padding: 3vw;
-  margin: 30px 0;
+  margin: 3vw 0;
 }
 .experience .title {
   font-size: 11vw;
@@ -344,4 +344,16 @@ a {
   font-size: 1vw;
   text-align: left;
   color: rgb(109, 109, 109);
+}
+.experience .footer-left {
+  font-size: 20px;
+  margin-bottom: 3vw;
+  font-weight: 600;
+}
+.experience .footer-left .btn {
+  color: white;
+  font-weight: 700;
+  padding: 10px 30px;
+  background: #000;
+  border-radius: 25px;
 }/*# sourceMappingURL=main.css.map */
