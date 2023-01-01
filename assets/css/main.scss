@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     height: 1200px;
     overflow: -moz-scrollbars-none !important;
-    overflow: auto;
+    overflow-x: hidden;
     scrollbar-width: none;
 }
 
@@ -89,56 +89,181 @@ a {
             }
         }
     }
-}
 
+    .logo {
+        width: 700px;
+    }
 
-.logo {
-    width: 700px;
-}
+    #plane {
+        position: absolute;
+        top: 200px;
+        left: 500px;
+        width: 500px;
+    }
 
-#plane {
-    position: absolute;
-    top: 200px;
-    left: 500px;
-    width: 500px;
-}
+    .plane-text {
+        color: white;
+        text-align: center;
+    }
 
-.plane-text {
-    color: white;
-    text-align: center;
-}
+    .plane-text h1 {
+        font-size: 48px;
+    }
 
-.plane-text h1 {
-    font-size: 48px;
-}
+    .plane-text p {
+        font-size: 24px;
+    }
 
-.plane-text p {
-    font-size: 24px;
-}
+    .plane-text button {
+        background-color: blue;
+        color: white;
+        border: none;
+        font-size: 16px;
+        padding: 8px 16px;
+        cursor: pointer;
+    }
 
-.plane-text button {
-    background-color: blue;
-    color: white;
-    border: none;
-    font-size: 16px;
-    padding: 8px 16px;
-    cursor: pointer;
-}
+    .hero-footer {
+        display: flex;
+        justify-content: space-between;
 
-.hero-footer {
-    display: flex;
-    justify-content: space-between;
+        .hero-footer-left {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
 
-    .hero-footer-left {
-        font-size: 20px;
-        font-weight: 600;
+    .btn {
+        color: white;
+        font-weight: 700;
+        padding: 10px 30px;
+        background: #000;
+        border-radius: 25px;
     }
 }
 
-.btn {
-    color: white;
-    font-weight: 700;
-    padding: 10px 30px;
-    background: #000;
-    border-radius: 25px;
+
+// Feture section
+.title {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.features {
+
+    margin-top: 20px;
+
+    .row {
+
+        div {
+            padding: 10px;
+
+            div {
+
+                border-top: 1px solid;
+            }
+
+            h3 {
+                font-size: 1.4rem;
+                font-weight: 600;
+            }
+
+            p {
+                color: rgb(109, 108, 108);
+                font-size: 1.1rem;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+// Service section
+
+.service-section {
+    .row {
+        .service {
+            height: 100vh;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 1s ease;
+
+            span {
+                font-size: 2rem;
+            }
+
+            p,
+            span {
+                display: none;
+            }
+
+            &:hover span {
+                display: inline-block;
+            }
+
+            &:hover p {
+                display: inline-block;
+            }
+        }
+
+        .col-4:first-child {
+            background: #151623;
+            color: white;
+
+            .service {
+                h1 {
+                    font-size: 3rem;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                }
+
+                .btn {
+                    color: #fff;
+                    border: 1px solid #fff;
+                    border-radius: 25px;
+                    padding: 10px 20px;
+                    font-weight: 1.4rem;
+                    font-weight: 600;
+                    margin-top: 10px;
+
+                    &:hover {
+                        background: #fff;
+                        color: #000;
+                    }
+                }
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+
+        .col-4:nth-child(2) {
+            background: url(../image/service-plane.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: -20px center;
+        }
+
+        .col-4:last-child {
+            background: #BC7155;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: -20px center;
+
+            .svg {
+                padding-bottom: 60px;
+            }
+        }
+    }
+
 }

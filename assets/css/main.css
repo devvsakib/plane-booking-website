@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
   height: 1200px;
   overflow: -moz-scrollbars-none !important;
-  overflow: auto;
+  overflow-x: hidden;
   scrollbar-width: none;
 }
 
@@ -74,32 +74,26 @@ a {
 #herosection .nav .nav-icons .icon:first-child {
   margin-right: 10px;
 }
-
-.logo {
+#herosection .logo {
   width: 700px;
 }
-
-#plane {
+#herosection #plane {
   position: absolute;
   top: 200px;
   left: 500px;
   width: 500px;
 }
-
-.plane-text {
+#herosection .plane-text {
   color: white;
   text-align: center;
 }
-
-.plane-text h1 {
+#herosection .plane-text h1 {
   font-size: 48px;
 }
-
-.plane-text p {
+#herosection .plane-text p {
   font-size: 24px;
 }
-
-.plane-text button {
+#herosection .plane-text button {
   background-color: blue;
   color: white;
   border: none;
@@ -107,20 +101,113 @@ a {
   padding: 8px 16px;
   cursor: pointer;
 }
-
-.hero-footer {
+#herosection .hero-footer {
   display: flex;
   justify-content: space-between;
 }
-.hero-footer .hero-footer-left {
+#herosection .hero-footer .hero-footer-left {
   font-size: 20px;
   font-weight: 600;
 }
-
-.btn {
+#herosection .btn {
   color: white;
   font-weight: 700;
   padding: 10px 30px;
   background: #000;
   border-radius: 25px;
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.features {
+  margin-top: 20px;
+}
+.features .row div {
+  padding: 10px;
+}
+.features .row div div {
+  border-top: 1px solid;
+}
+.features .row div h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.features .row div p {
+  color: rgb(109, 108, 108);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.service-section .row .service {
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.service-section .row .service span {
+  font-size: 2rem;
+}
+.service-section .row .service p,
+.service-section .row .service span {
+  display: none;
+}
+.service-section .row .service:hover span {
+  display: inline-block;
+}
+.service-section .row .service:hover p {
+  display: inline-block;
+}
+.service-section .row .col-4:first-child {
+  background: #151623;
+  color: white;
+}
+.service-section .row .col-4:first-child .service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.service-section .row .col-4:first-child .service h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.service-section .row .col-4:first-child .service p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.service-section .row .col-4:first-child .service .btn {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: 1.4rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.service-section .row .col-4:first-child .service .btn:hover {
+  background: #fff;
+  color: #000;
+}
+.service-section .row .col-4:nth-child(2) {
+  background: url(../image/service-plane.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -20px center;
+}
+.service-section .row .col-4:last-child {
+  background: #BC7155;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -20px center;
+}
+.service-section .row .col-4:last-child .svg {
+  padding-bottom: 60px;
 }/*# sourceMappingURL=main.css.map */
