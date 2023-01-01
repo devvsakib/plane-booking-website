@@ -267,3 +267,62 @@ a {
     }
 
 }
+
+// Destination
+.destination-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .title {
+        margin-bottom: 30px;
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+    }
+
+    .destination-image {
+
+        img {
+            width: 550px;
+            border-radius: 0 0 40px 0;
+        }
+    }
+
+    .place {
+        display: flex;
+        flex-wrap: wrap;
+
+        .bt{
+            border-top: 1px solid #ddd;
+        }
+
+        .place-name {
+            height: 100%;
+            margin: 20px;
+            margin-top: 0;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 10px;
+
+            .place-title {
+                font-size: 1.7rem;
+                font-weight: 600;
+            }
+
+            .country-name {
+                border-bottom: 2px solid #ddd;
+                border-right: 2px solid #ddd;
+                border-radius: 0 0 40px;
+            }
+        }
+
+    }
+}
