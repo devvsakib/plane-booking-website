@@ -10,7 +10,9 @@ body::-moz-scrollbar {
     display: none;
 }
 
-html {}
+img {
+    max-width: 100%;
+}
 
 
 body::-webkit-scrollbar {
@@ -32,7 +34,7 @@ a {
 #herosection {
     padding: 30px 50px;
     position: relative;
-    background: linear-gradient(rgba(255, 255, 255, 0.416), rgba(255, 255, 255, 0.726)), url(../image/bg2.jpg) no-repeat center center;
+    background: linear-gradient(rgba(255, 255, 255, 0.416), rgba(61, 248, 248, 0.416), rgb(255, 255, 255) 80%), url(../image/bg2.jpg) no-repeat center center;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -51,7 +53,6 @@ a {
 
                 li {
                     a {
-
                         font-size: 18px;
                         border-bottom: 2px;
                         padding: 5px 20px;
@@ -298,7 +299,7 @@ a {
         display: flex;
         flex-wrap: wrap;
 
-        .bt{
+        .bt {
             border-top: 1px solid #ddd;
         }
 
@@ -324,5 +325,39 @@ a {
             }
         }
 
+    }
+}
+
+// Manager section
+
+.manager-section {
+    background: #0F0F1C;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    .row {
+        height: 100%;
+        width: 100%;
+    }
+
+    .manager {
+        height: 100%;
+    }
+
+    .manager-left {
+        background: #0F0F1C;
+    }
+
+    .manager-right {
+        background: #151623;
+        padding: 40px;
+
+        P {
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
     }
 }
