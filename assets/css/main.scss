@@ -192,7 +192,7 @@ a {
             color: #fff;
             font-weight: 600;
             cursor: pointer;
-            // transition: all 1s ease;
+            transition: all 1s ease;
 
             span {
                 font-size: 2rem;
@@ -513,7 +513,7 @@ a {
                 background: #000;
                 transform-origin: left;
                 width: 0;
-                // transition: 300ms ease-in-out;
+                transition: 300ms ease-in-out;
             }
 
             &:hover::after {
