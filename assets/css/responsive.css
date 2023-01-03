@@ -91,4 +91,33 @@
     margin-top: 16px;
     font-weight: normal;
   }
+  .experience .experience-desc {
+    width: 100% !important;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  .experience .experience-desc p {
+    font-size: 1rem !important;
+  }
+  .experience .cards {
+    justify-content: space-evenly;
+  }
+  .experience .cards .icon-card {
+    position: relative;
+    margin-left: -20px !important;
+  }
+  .experience .cards .card-icon {
+    width: 7rem !important;
+    height: 7rem !important;
+  }
+  .experience .cards .card-icon i {
+    text-align: center;
+    font-size: 4em !important;
+  }
+  .experience .cards h2 {
+    font-size: 1rem !important;
+  }
+  .experience .cards p {
+    font-size: 0.6rem !important;
+  }
 }/*# sourceMappingURL=responsive.css.map */
