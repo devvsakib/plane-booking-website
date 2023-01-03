@@ -81,4 +81,14 @@
   .destination-section .place-title {
     font-size: 1rem !important;
   }
+  .manager-section .row {
+    flex-direction: column;
+  }
+  .manager-section .row .manager h1 {
+    font-size: 1.5rem;
+  }
+  .manager-section .row .manager p {
+    margin-top: 16px;
+    font-weight: normal;
+  }
 }/*# sourceMappingURL=responsive.css.map */
