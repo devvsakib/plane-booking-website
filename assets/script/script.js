@@ -7,5 +7,4 @@
     plane.style.width = (500 + scrollPos) + "px";
     plane.style.bottom = ((scrollPos + 150) + 50) + "px";
     plane.style.left = ((scrollPos + 450) + 50) + "px";
-    console.log(plane.style.top,plane.style.left);
 }))()

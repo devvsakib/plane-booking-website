@@ -1,0 +1,118 @@
+@media (max-width: 992px) {
+
+    .logo {
+        width: 20vw !important;
+    }
+
+    .nav {
+        // background: #000;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .plane-section {
+        position: relative;
+        top: -40%;
+        right: 130vw;
+        width: 250px;
+    }
+
+    .hero-footer {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .hero-footer-left p {
+            font-size: 10vw;
+        }
+
+        .hero-footer-right {
+            display: flex;
+            flex-direction: column;
+
+            button {
+                margin: 5px 0;
+            }
+        }
+    }
+
+    #menu-close {
+        display: block !important;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .logo {
+        width: 30% !important;
+    }
+
+    .nav {
+        .main-nav {
+            ul {
+                display: flex;
+                flex-direction: column;
+                position: fixed;
+                top: 0;
+                right: 0;
+                width: 65vw;
+                padding: 2rem 0;
+                height: 100vh;
+                background: #000;
+                z-index: 999;
+
+                #menu-close {
+                    color: #fff;
+
+                    a {
+                        padding: 0 auto;
+                        font-size: 1.4rem;
+                    }
+
+                    position: relative;
+                    // right: px;
+                    padding: 0;
+                    cursor: pointer;
+                }
+
+                li {
+                    padding: 1.2rem 0;
+
+                    a {
+                        color: #fff;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        transition: 200ms ease-in-out;
+
+                        &:hover {
+                            color: #1E9CB2 !important;
+                            font-weight: 600;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .features-title {
+        font-size: 2rem;
+    }
+
+    .destination-section {
+        .place {
+            .row {
+                margin: 1.4rem 0;
+            }
+        }
+
+        .place-title {
+            font-size: 1rem !important;
+        }
+    }
+}

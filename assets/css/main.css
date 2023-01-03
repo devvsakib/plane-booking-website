@@ -57,6 +57,9 @@ a {
 #herosection .nav nav ul li a:hover {
   color: rgb(7, 15, 56);
 }
+#herosection .nav #menu-close {
+  display: none;
+}
 #herosection .nav .nav-icons {
   display: flex;
   width: 150px;
@@ -79,7 +82,7 @@ a {
   margin-right: 10px;
 }
 #herosection .logo {
-  width: 700px;
+  width: 40vw;
 }
 #herosection #plane {
   position: absolute;
@@ -110,7 +113,7 @@ a {
   justify-content: space-between;
 }
 #herosection .hero-footer .hero-footer-left {
-  font-size: 20px;
+  font-size: 1.6vw;
   font-weight: 600;
 }
 #herosection .btn {

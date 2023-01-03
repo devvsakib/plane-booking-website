@@ -16,18 +16,21 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
         integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="assets/script/script.js"></script>
+    <script defer src="assets/script/navbar.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
     <section id="herosection">
         <div class="nav">
-            <nav>
+            <nav class="main-nav hide">
                 <ul>
+                    <li id="menu-close"><a><i class="fa fa-close" aria-hidden="true"></i></a></li>
                     <li><a href="#">Solutions</a></li>
                     <li><a href="#">About us</a></li>
                     <li><a href="#">Contact</a></li>
@@ -35,10 +38,9 @@
             </nav>
             <div class="nav-icons">
                 <button class="icon">
-
                     <i class="fa fa-plane" aria-hidden="true"></i>
                 </button>
-                <button class="icon">
+                <button class="icon " id="menu-open">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
             </div>
@@ -73,7 +75,7 @@
             <div class="hero-footer-left">
                 <p>More Flexibility, freedom and choice!</p>
             </div>
-            <div class="hero-footer-right">
+            <div class="hero-footer-right ">
                 <button class="btn1 btn">Book an Aircraft</button>
                 <button class="btn2 btn">Book a Shared Flight</button>
             </div>
@@ -83,8 +85,8 @@
     <section class="container mt-5">
         <div class="row">
             <div class="col-5"></div>
-            <div class="col-7">
-                <div class="title">
+            <div class="col-12 col-md-7">
+                <div class="title features-title">
                     <p>We believe that in a world where passengers have become numbers, a personal approach is key to
                         ensure you get the most out of your flying experience.</p>
                 </div>
@@ -170,12 +172,12 @@
             <h1>Popular Destinations</h1>
         </div>
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="destination-image">
                     <img src="assets/image/1611759665-cannes.avif" alt="">
                 </div>
             </div>
-            <div class="col-6 place">
+            <div class="col-12 col-md-6 place">
                 <div class="row">
                     <div class="col-6">
                         <div class="place-name bt">
