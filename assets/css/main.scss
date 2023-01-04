@@ -217,7 +217,7 @@ a {
             }
         }
 
-        .col-4:first-child {
+        .col-12:first-child {
             background: #151623;
             color: white;
 
@@ -253,14 +253,14 @@ a {
             }
         }
 
-        .col-4:nth-child(2) {
+        .col-12:nth-child(2) {
             background: url(../image/service-plane.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: -20px center;
         }
 
-        .col-4:last-child {
+        .col-12:last-child {
             background: #BC7155;
             background-repeat: no-repeat;
             background-size: cover;

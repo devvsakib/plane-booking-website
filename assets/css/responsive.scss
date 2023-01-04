@@ -1,4 +1,36 @@
 @media (max-width: 992px) {
+    .manager-section {
+        height: auto;
+    }
+
+    .gallery-section {
+        height: auto;
+    }
+
+    .booking-section {
+        height: auto;
+        padding-bottom: 10vh;
+    }
+
+    .service-section .row {
+        flex-direction: column;
+
+        .service {
+            height: 50vh;
+            padding-top: 2rem !important;
+
+            .svg {
+                width: 30vw;
+                padding-bottom: 20px !important;
+            }
+        }
+
+        .col-12:nth-child(2) {
+            background-size: 100%;
+            background-position: 0px center !important;
+        }
+
+    }
 
     .logo {
         width: 20vw !important;
@@ -19,6 +51,25 @@
         top: -40%;
         right: 130vw;
         width: 250px;
+    }
+
+    .service-section .row {
+        flex-direction: column;
+
+        .service {
+            height: auto;
+            padding-top: 2rem !important;
+
+            .svg {
+                width: 30vw;
+                padding-bottom: 20px !important;
+            }
+        }
+
+        .col-12:nth-child(2) {
+            background-position: 0px center !important;
+        }
+
     }
 
     .hero-footer {
@@ -138,7 +189,8 @@
             width: 100% !important;
             margin: auto;
             margin-bottom: 3rem;
-            p{
+
+            p {
                 font-size: 1rem !important;
             }
         }

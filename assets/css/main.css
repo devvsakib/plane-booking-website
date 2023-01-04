@@ -173,24 +173,24 @@ a {
 .service-section .row .service:hover p {
   display: inline-block;
 }
-.service-section .row .col-4:first-child {
+.service-section .row .col-12:first-child {
   background: #151623;
   color: white;
 }
-.service-section .row .col-4:first-child .service {
+.service-section .row .col-12:first-child .service {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.service-section .row .col-4:first-child .service h1 {
+.service-section .row .col-12:first-child .service h1 {
   font-size: 3rem;
   font-weight: 600;
 }
-.service-section .row .col-4:first-child .service p {
+.service-section .row .col-12:first-child .service p {
   font-size: 1.2rem;
   font-weight: 600;
 }
-.service-section .row .col-4:first-child .service .btn {
+.service-section .row .col-12:first-child .service .btn {
   color: #fff;
   border: 1px solid #fff;
   border-radius: 25px;
@@ -199,23 +199,23 @@ a {
   font-weight: 600;
   margin-top: 10px;
 }
-.service-section .row .col-4:first-child .service .btn:hover {
+.service-section .row .col-12:first-child .service .btn:hover {
   background: #fff;
   color: #000;
 }
-.service-section .row .col-4:nth-child(2) {
+.service-section .row .col-12:nth-child(2) {
   background: url(../image/service-plane.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -20px center;
 }
-.service-section .row .col-4:last-child {
+.service-section .row .col-12:last-child {
   background: #BC7155;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -20px center;
 }
-.service-section .row .col-4:last-child .svg {
+.service-section .row .col-12:last-child .svg {
   padding-bottom: 60px;
 }
 
