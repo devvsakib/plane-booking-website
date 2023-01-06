@@ -6,8 +6,7 @@ Right, this website design is very simple . But I like the functionality this we
 
 <br>
 
-## Tech stack to build this website:
-HTML CSS SASS JAVASCRIPT
+## Tech stack to build this website: <br>
 ![HTML](https://img.shields.io/badge/html-F16529?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/css-254BDD?style=for-the-badge&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/sass-C66394?style=for-the-badge&logo=sass&logoColor=white)
