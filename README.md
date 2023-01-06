@@ -1,3 +1,5 @@
+<div align='center'>
+  
 ## Inspiarate by FLYHYER website
 
 **FlyHyer** is an **award-winning** website. So I thought this website should be a perfect website to clone.
@@ -16,4 +18,7 @@ Right, this website design is very simple . But I like the functionality this we
 <br>
 
 ### Feel free to contribute. 
-To get more information please visit FlyHyer main website [wwww.flyhyer.com](https://www.flyhyer.com)
+To get more information please visit FlyHyer main website
+  
+<a href='https://www.flyhyer.com/' target='_blank'>![flyhyer](https://img.shields.io/badge/Live-Website-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white)</a>
+</div>
