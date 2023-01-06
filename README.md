@@ -1,3 +1,20 @@
-# plane-booking-website
+## Inspiarate by FLYHYER website
 
-Wanna try or contribute? Fork it right nowwwwwwwwwwwww
+**FlyHyer** is an **award-winning** website. So I thought this website should be a perfect website to clone.
+But you may think that there is nothing fancy with the design then why I cloned this website?
+Right, this website design is very simple . But I like the functionality this website has. 
+
+<br>
+
+## Tech stack to build this website:
+HTML CSS SASS JAVASCRIPT
+![HTML](https://img.shields.io/badge/html-F16529?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css-254BDD?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/sass-C66394?style=for-the-badge&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-EFD81C?style=for-the-badge&logo=javascript&logoColor=black)
+
+> Later may convert to CRA
+<br>
+
+### Feel free to contribute. 
+To get more information please visit FlyHyer main website [wwww.flyhyer.com](https://www.flyhyer.com)
