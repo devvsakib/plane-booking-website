@@ -90,7 +90,16 @@
             }
         }
     }
-
+    .footer-left{
+        margin: auto;
+        text-align: center;
+    }
+    .footer-bottom{
+        .col-md-5{
+            margin-left: -10px;
+            padding-left: 0px;
+        }
+    }
     #menu-close {
         display: block !important;
     }
